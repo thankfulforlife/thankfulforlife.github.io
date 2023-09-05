@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-sass-projekt",
+  "version": "1.0.0",
+  "description": "bootstrap sass projekt",
+  "main": "index.js",
+  "scripts": {
+  "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "learn-scss",
+    "learn-bootstrap"
+  ],
+  "author": "Tim Eberhart",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.65.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.1",
+    "postcss-cli": "^10.1.0"
+  }
+}
